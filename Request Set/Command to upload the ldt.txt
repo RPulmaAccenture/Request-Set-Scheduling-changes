@@ -1,0 +1,18 @@
+
+Move the ldt files in the /u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/import and execute the upload command below. 
+Please make sure that you use the password of APPS user. 
+
+
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct XXNBTY_WEEKLY_PLANNING_RS.ldt CUSTOM_MODE=FORCE
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct XXNBTY_WEEKLY_PLANNING_RL.ldt CUSTOM_MODE=FORCE
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct XXNBTY_WEEKLY_PLANNING_RG.ldt CUSTOM_MODE=FORCE
+
+
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct XXNBTY_MONTHLY_PLAN_RS.ldt CUSTOM_MODE=FORCE
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct XXNBTY_MONTHLY_PLAN_RL.ldt CUSTOM_MODE=FORCE
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct XXNBTY_MONTHLY_PLAN_RG.ldt CUSTOM_MODE=FORCE
+
+
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct XXNBTY_DAILY_PLANNING_REQUEST_RS.ldt CUSTOM_MODE=FORCE
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcprset.lct XXNBTY_DAILY_PLANNING_REQUEST_RL.ldt CUSTOM_MODE=FORCE
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afcpreqg.lct XXNBTY_DAILY_PLANNING_REQUEST_RG.ldt CUSTOM_MODE=FORCE
